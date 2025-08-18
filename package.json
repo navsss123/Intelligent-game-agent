@@ -1,0 +1,22 @@
+{
+  "name": "intelligent-game-agent",
+  "version": "1.0.0",
+  "description": "AI-powered Minecraft bot that autonomously explores the world, generates commentary, and speaks via TTS.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.0.0",
+    "mineflayer-pathfinder": "^1.8.2",
+    "play-sound": "^1.1.3",
+    "vec3": "^2.0.0",
+    "openai": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
